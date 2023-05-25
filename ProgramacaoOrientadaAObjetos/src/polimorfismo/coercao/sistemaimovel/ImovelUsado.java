@@ -11,9 +11,8 @@ public class ImovelUsado extends Imovel{
 	
 	public void imprimirDados() {
 		
-		System.out.println("Endereço: " + this.endereco);
-		System.out.println("Valor base: " + this.endereco);
-		System.out.println("Valor adicional: " + this.valorDesconto);
+		super.imprimirDados();
+		System.out.println("Valor desconto: " + this.valorDesconto);
 		System.out.println("Valor total: " + this.calcularValorTotal());
 	}
 	

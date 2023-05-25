@@ -12,8 +12,7 @@ public class ImovelNovo extends Imovel{
 	
 	public void imprimirDados() {
 		
-		System.out.println("Endereço: " + this.endereco);
-		System.out.println("Valor base: " + this.valorBase);
+		super.imprimirDados();
 		System.out.println("Valor adicional: " + this.valorAdicional);
 		System.out.println("Valor total: " + this.calcularValorTotal());
 	}

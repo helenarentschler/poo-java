@@ -13,6 +13,8 @@ public class Imovel {
 	
 	public void imprimirDados() {
 		
+		System.out.println("Endereço: " + this.endereco);
+		System.out.println("Valor base: " + this.valorBase);
 	}
 	
 	private double calcularValorTotal() {

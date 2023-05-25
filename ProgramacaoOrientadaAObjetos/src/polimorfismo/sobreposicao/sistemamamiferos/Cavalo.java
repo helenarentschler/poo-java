@@ -7,6 +7,7 @@ public class Cavalo extends Mamifero {
 		super(nome);
 	}
 	
+	@Override
 	public void emitirSom() {
 		
 		System.out.println(this.nome + " está relinchando");
